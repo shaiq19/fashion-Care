@@ -58,11 +58,17 @@ export const DirectoryItemContainer = styled.div`
     }
   }
 
+  &.large {
+    height: 480px;
+  }
+
   &:first-child {
     margin-right: 7.5px;
+    height: 480px;
   }
 
   &:last-child {
     margin-left: 7.5px;
+    height: 480px;
   }
 `;

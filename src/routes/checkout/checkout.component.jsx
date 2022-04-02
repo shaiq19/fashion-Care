@@ -3,6 +3,7 @@ import { useContext } from 'react';
 import { CartContext } from '../../contexts/cart.context';
 
 import CheckoutItem from '../../components/checkout-item/checkout-item.component';
+import StripeCheckoutButton from '../../components/stripe-button/stripe-button.component';
 
 import './checkout.styles.scss';
 
@@ -32,6 +33,14 @@ const Checkout = () => {
         <CheckoutItem key={cartItem.id} cartItem={cartItem} />
       ))}
       <div className='total'>TOTAL: ${cartTotal}</div>
+
+      <div className='test-warning'>
+      *Plese use the following test cradit card for payments*
+       <br/>
+      4242 4242 4242 4242 - Exp:01/23 - CVV: 123(Any three digits)
+     </div>
+    <StripeCheckoutButton price={cartTotal}/>
+
     </div>
   );
 };
