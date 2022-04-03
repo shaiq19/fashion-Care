@@ -5,7 +5,6 @@ import { CartContext } from '../../contexts/cart.context';
 import CheckoutItem from '../../components/checkout-item/checkout-item.component';
 import StripeCheckoutButton from '../../components/stripe-button/stripe-button.component';
 
-import Button, { BUTTON_TYPE_CLASSES } from '../../components/button/button.component';
 
 import './checkout.styles.scss';
 
@@ -42,15 +41,6 @@ const Checkout = () => {
       4242 4242 4242 4242 - Exp:01/23 - CVV: 123(Any three digits)
      </div>
     <StripeCheckoutButton price={cartTotal}/>
-
-    <Button
-        buttonType={BUTTON_TYPE_CLASSES.base}
-        onClick={() => {('/vt');
-        }}
-      >
-        Go To Virtually Trial
-      </Button>
-
     </div>
   );
 };
