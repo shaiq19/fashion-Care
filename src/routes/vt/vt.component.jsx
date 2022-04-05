@@ -94,8 +94,8 @@ const Wrapper = styled.div`
 
 const VT = () => {
     return (
-        <Wrapper>
-          <Paper elevation={3}>
+       <Wrapper>
+        <Paper elevation={3}>
           <h2>Model Pre-Processing</h2>
 
           <h4>Upload your image or click one of the examples below</h4>
@@ -132,9 +132,9 @@ const VT = () => {
               </div>
             ))}
           </div>
-          </Paper>
+        </Paper>
 
-          <Paper elevation={3}>
+        <Paper elevation={3}>
           <h2>Clothes Pre-Processing</h2>
           <p>
             You need to first remove the background of the clothes image
@@ -205,8 +205,9 @@ const VT = () => {
               </div>
             ))}
           </div>
-          </Paper>
-          <Paper elevation={3}> 
+        </Paper>
+
+        <Paper elevation={3}> 
           <h2>Final Try-On</h2>
           <p>
             Finish the model pre-processing and clothes pre-processing parts,
@@ -223,8 +224,8 @@ const VT = () => {
           <div className="block">
             <h3>cp-vton try-on result:</h3>
           </div>
-          </Paper>
-        </Wrapper>
+        </Paper>
+      </Wrapper>
     )
 }
 
