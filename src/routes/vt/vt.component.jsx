@@ -192,7 +192,6 @@ const VT = () => {
               ja3,
               ja4,
               ja5,
-
             ].map((imgUrl) => (
               <div className="example" key={imgUrl}>
                 <img src={imgUrl} alt="example clothes" />
