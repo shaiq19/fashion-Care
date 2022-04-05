@@ -201,7 +201,6 @@ const VT = () => {
                   variant="contained"
                   color="secondary"
                   size="small"
-                  onClick={() => this.onChooseCloth(imgUrl)}
                 >
                   Choose
                 </Button>
