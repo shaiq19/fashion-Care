@@ -206,8 +206,6 @@ const VT = () => {
             ))}
           </div>
           </Paper>
-
-
           <Paper elevation={3}> 
           <h2>Final Try-On</h2>
           <p>
