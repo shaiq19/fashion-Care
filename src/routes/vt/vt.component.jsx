@@ -97,7 +97,6 @@ const VT = () => {
        <Wrapper>
         <Paper elevation={3}>
           <h2>Model Pre-Processing</h2>
-
           <h4>Upload your image or click one of the examples below</h4>
           <div className="examples">
             {/* model input */}
