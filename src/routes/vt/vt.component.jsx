@@ -126,7 +126,6 @@ const VT = () => {
                   variant="contained"
                   color="secondary"
                   size="small"
-
                 >
                   Choose
                 </Button>
