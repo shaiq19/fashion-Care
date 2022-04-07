@@ -72,7 +72,7 @@ a {
     display: grid;
     grid-template-columns: 3fr 6fr 1fr 1fr 1fr;
     padding: 0 2rem; 
-    margin-top: 30px; 
+    margin-top: 50px; 
 }
 
 /* Extra small devices (phones, 600px and down) */
