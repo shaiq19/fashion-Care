@@ -6,8 +6,6 @@ import Authentication from './routes/authentication/authentication.component';
 import Shop from './routes/shop/shop.component';
 import Checkout from './routes/checkout/checkout.component';
 
-import VT from './routes/vt/vt.component';
-
 import Footer from './components/Footer/Footer';
 
 const App = () => {
@@ -17,7 +15,6 @@ const App = () => {
         <Route  exact path='/' element={<Navigation />}>
         <Route  exact index element={<Home />} />
         <Route  path='shop/*' element={<Shop />} />
-        <Route  path='vt' element={<VT />} />
         <Route  path='auth' element={<Authentication />} />
         <Route  exact path='checkout' element={<Checkout />} />
       </Route>

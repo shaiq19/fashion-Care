@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import PrivacyModal from "./ModalView/PrivacyModal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faYoutube,
@@ -13,15 +12,18 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer-container">
-                <div className="item1">
-                    <PrivacyModal />
-                </div>
+            <a
+                    href="https://www.instagram.com/"
+                   // target="_blank"
+                    className="item1"
+                > Virtual Trial
+                </a>
 
                 <div className="item2">
                     <span style={{ paddingRight: 5 }}>Copyright </span>
                     <FontAwesomeIcon icon={faCopyright} />{" "}
                     <span style={{ paddingLeft: 5 }}>
-                        {new Date().getFullYear()} YourCompany. All Rights
+                        {new Date().getFullYear()} FashionCare. All Rights
                         Reserved.
                     </span>
                 </div>
@@ -47,7 +49,6 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faYoutube} />
                 </a>
 
-                {false && <PrivacyModal click={true} />}
             </div>
         </footer>
     );
