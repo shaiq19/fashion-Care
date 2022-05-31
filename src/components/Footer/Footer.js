@@ -13,7 +13,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-container">
             <a
-                    href="https://fashioncarevirtualtrial.netlify.app/"
+                    href="http://127.0.0.1:5000/"
                    // target="_blank"
                     className="item1"
                 > Virtual Trial
